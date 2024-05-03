@@ -1,0 +1,321 @@
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://cdn.optimizely.com/js/11026771271.js"></script>
+    <!--Rendering Optimizley as soon as I can as per client instructions-->
+    
+
+    <!-- STYLES -->
+    <link href="/Content/css/main.css" rel="stylesheet"/>
+
+
+    <!-- SCRIPTS -->
+
+    <script src="/Scripts/jquery-2.2.3.js"></script>
+<script src="/Scripts/jquery.matchHeight-min.js"></script>
+<script src="/Scripts/angular.js"></script>
+<script src="/Scripts/angular-route.min.js"></script>
+<script src="/Scripts/jquery.scrollintoview.min.js"></script>
+<script src="/Scripts/jquery.bxslider.min.js"></script>
+<script src="/Scripts/ui-bootstrap-tpls-1.3.2.min.js"></script>
+<script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/moment.js"></script>
+<script src="/Scripts/chart.js"></script>
+<script src="/Scripts/numeral.min.js"></script>
+<script src="/Scripts/markerclusterer.js"></script>
+<script src="/App/app_LEADGEN.js"></script>
+<script src="/App/Form/formService_LEADGEN.js"></script>
+<script src="/App/Pages/formController.js"></script>
+<script src="/App/Pages/reportController.js"></script>
+<script src="/App/Pages/reportHLController.js"></script>
+
+
+    <base href="/">
+
+    <title>Real Estate - Market Guide</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+    </style>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        //ga('create', 'UA-42793958-1', 'realestate.com.au');
+        //ga('send', 'pageview');
+        ga('create', 'UA-42793958-1', 'realestate.com.au');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- BEGIN Krux Control Tag for "REA Property Value" -->
+    <!-- Source: /snippet/controltag?confid=J_l6R_ji&site=REA%20Property%20Value&edit=1 -->
+    <script class="kxct" data-id="J_l6R_ji" data-timing="async" data-version="1.9" type="text/javascript">
+        window.Krux || ((Krux = function () { Krux.q.push(arguments) }).q = []);
+        (function () {
+            var k = document.createElement('script'); k.type = 'text/javascript'; k.async = true;
+            var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+            k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+                (location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=J_l6R_ji"
+                ;
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(k, s);
+        }());
+
+    </script>
+    <!-- END Krux Controltag -->
+    <!-- Bugherd -->
+    <script type='text/javascript'>
+        (function(d, t) {
+            var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            bh.type = 'text/javascript';
+            bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=agnvc6hemb1scw3olwxzvg';
+            s.parentNode.insertBefore(bh, s);
+        })(document, 'script');
+    </script>
+</head>
+
+<body class="rui-responsive">
+    <ul class="rui-visuallyhidden rui-accessibility">
+        <li>
+            <a href="#rui-main-nav" title="Go directly to the website navigation" accesskey="1" tabindex="1">
+                skip to Main
+                Navigation
+            </a>
+        </li>
+        <li>
+            <a href="#rui-main-content" title="Go directly to main content" accesskey="2" tabindex="2">skip to Content</a>
+        </li>
+    </ul>
+
+    
+
+
+    <header class="rui-header rui-clearfix" role="region" aria-label="header">
+        <div class="rui-grid rui-header-container" role="presentation">
+            <a title="realestate.com.au homepage" href="/" class="rui-main-logo">
+                <img src="/images/rea-long.png"
+                     alt="realestate.com.au" />
+            </a>
+            <div class="rui-clearboth"></div>
+            <button class="rui-burger-toggle rui-icon rui-icon-navdeck rui-button-no-style">
+                <span class="rui-visuallyhidden">Menu</span>
+                <span class="hit-box"></span>
+            </button>
+            <nav class="rui-myrea-nav" style="display:none" aria-label="My REA">
+                <ul class="rui-login-buttons">
+                    <li class="rui-user-menu-item">
+                        <a href="https://www.realestate.com.au/my-real-estate/login" title="Sign in" class="rui-login-btn">Sign in</a>
+                    </li>
+                    <li class="rui-user-menu-item">
+                        <a href="https://www.realestate.com.au/my-real-estate/register" class="rui-button-brand rui-login-btn" title="Create an account">Join</a>
+                    </li>
+                </ul>
+                <ul class="rui-person-guy-menu rui-toggle-wrapper">
+                    <li class="rui-user-menu-item">
+                        <a href="#" class="rui-person-guy rui-toggle-link rui-icon rui-icon-user-off"></a>
+                        <div class="rui-account-menu-container">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <hr class="rui-clearboth" aria-hidden="true" />
+        <div class="rui-grid rui-nav-container rui-burger-container" role="presentation">
+            <nav class="rui-main-nav" aria-label="Main">
+                <ul>
+                    <li class="rui-nav-tab rui-nav-active">
+                        <a href="https://www.realestate.com.au/buy" title="Real estate and property for sale">
+                            <span>Buy</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="https://www.realestate.com.au/rent" title="Rental properties">
+                            <span>Rent</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="http://www.realestate.com.au/invest" title="Property investment data">
+                            <span>Invest</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="https://www.realestate.com.au/sold" title="Sold properties">
+                            <span>Sold</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="https://www.realestate.com.au/share" title="Share accommodation">
+                            <span>Share</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="http://www.realestate.com.au/new-homes" title="New homes, land estates & off the plan apartments">
+                            <span>New homes</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="https://www.realestate.com.au/find-agent" title="Find a real estate agent">
+                            <span>Find agents</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="http://www.realestate.com.au/lifestyle/" title="Lifestyle">
+                            <span>Lifestyle</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="http://www.realestate.com.au/news/" title="Property news">
+                            <span>News</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-tab">
+                        <a href="http://www.realcommercial.com.au" target="_blank"
+                           title="Commercial real estate for sale and lease">
+                            <span>Commercial</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="rui-mobile-nav" aria-label="Main">
+                <ul>
+                    <li class="rui-nav-item rui-clear rui-nav-active rui-nav-main">
+                        <a href="https://m.realestate.com.au/buy" title="Real estate and property for sale">
+                            <span>Buy</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item rui-nav-main">
+                        <a href="https://m.realestate.com.au/rent" title="Rental properties">
+                            <span>Rent</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item rui-nav-main">
+                        <a href="https://m.realestate.com.au/sold" title="Sold properties">
+                            <span>Sold</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="http://www.realestate.com.au/invest" title="Property investment data">
+                            <span>Invest</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="https://www.realestate.com.au/new-homes/" title="New homes">
+                            <span>New Homes</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="https://www.realestate.com.au/find-agent" title="Find a real estate agent">
+                            <span>Find Agents</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="https://www.realestate.com.au/neighbourhoods" title="Suburb profiles">
+                            <span>Suburb profiles</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="https://www.realestate.com.au/share" title="Share accommodation">
+                            <span>Share</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="http://www.realestate.com.au/news/" title="Property news">
+                            <span>News</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item">
+                        <a href="http://www.realestate.com.au/lifestyle/" title="Lifestyle">
+                            <span>Lifestyle</span>
+                        </a>
+                    </li>
+                    <li class="rui-nav-item rui-nav-item-external">
+                        <a href="http://www.realcommercial.com.au" target="_blank" title="Commercial real estate for sale and lease">
+                            <span>Commercial</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+    <div id="page-data">
+    <span data-form-url="stringstep"></span>
+    <span data-address-url="string"></span>
+    <span data-agency="REA"></span>
+
+    <span data-location-url="string" data-location-owner-url="string"></span>
+</div>
+
+<!-- Sample Report -->
+<section id="sample_report" class="clearfix">
+    <div id="sample_report_wrap" class="clearfix">
+        <img src="/images/Sample_report.png" alt="Sample property report">
+        
+    </div>
+    <div id="close_wrapper_entended">
+        <div id="close_wrapper">
+            <a href="#" id="close_sample_report_img">Close sample report x</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Hero Banner and Search Bit -->
+<div id="on-boarding">
+    <div class="c-main" >
+        <div id="rui-main-content" ng-app="app" ng-view="" ui-view=""></div>
+        
+
+        <div class="scroll-arrow"></div>
+        <div class="my-property-info"></div>
+    </div>
+</div>
+
+
+
+    
+    <script src="/Scripts/rui-all_LEADGEN-v1.1.js"></script>
+
+    <!-- Omniture Reporting Implementation -->
+    <script type="text/javascript">
+        var s_account = "rea-live";
+    </script>
+    <script src="//assets.adobedtm.com/e5959eaf55fcfb3773bc2b809a9741c6d33e5156/satelliteLib-c57c0c71d2d8046ac8a87cced0935a268cafc7d0.js"></script>
+    <script type="text/javascript">if(window._satellite){window._satellite.pageBottom()}</script>
+    <script src="/Scripts/reaOmnitureWrapper_LEADGEN-v1.1.js"></script>
+    <script>
+        if ("reaOmnitureWrapper" in window) {
+            reaOmnitureWrapper.trackFormPageLoad();
+        }
+    </script>
+    <noscript>
+        <a href="http://www.omniture.com" title="Web Analytics">
+            <img src="//reagroup.122.2o7.net/b/ss/rea-live/1/H.17--NS/0" height="1" width="1" border="0" alt="" />
+        </a>
+    </noscript>
+    <!--/DO NOT REMOVE/-->
+    <!-- End SiteCatalyst code version: H.17. -->
+    <!-- Omniture Implementation Ends here -->
+</body>
+</html>
